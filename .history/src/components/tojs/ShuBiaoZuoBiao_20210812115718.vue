@@ -1,0 +1,18 @@
+<template>
+<body>
+    
+</body>
+</template> 
+<script type="text/javascript">
+    export default {
+        mounted() {
+        
+        }
+                        }
+
+</script>
+
+
+<style scoped>
+
+</style>

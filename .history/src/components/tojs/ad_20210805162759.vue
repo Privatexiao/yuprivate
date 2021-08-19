@@ -1,0 +1,31 @@
+<template>
+<body>
+    
+</body>
+</template> 
+
+
+<style scoped>
+	export default {
+        window.onload=function(){
+				function User(name,age,address,mobile,email){
+					this.name=name;
+					this.age=age;
+					this.address=address;
+					this.mobile=mobile;
+					this.email=email;
+				};
+				User.prototype.show=function(){
+					document.write("name:"+this.name+"<br/>");
+					document.write("age:"+this.age+"<br/>");
+					document.write("address:"+this.address+"<br/>");
+					document.write("mobile:"+this.mobile+"<br/>");
+					document.write("email:"+this.email+"<br/><br/>");
+				}
+				var u1=new User("刘红",20,"辽宁","13613456789","1sd@163.com");
+				var u2=new User("张三",25,"河南","13546598452","23dsa@163.com");
+				u1.show();
+				u2.show();
+			}
+    }
+</style>

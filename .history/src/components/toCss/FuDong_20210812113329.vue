@@ -1,0 +1,68 @@
+<template>
+<body>
+    <div class="container">
+		<div class="header">
+			<h1 class="header">数学与计算机学院</h1>
+		</div>
+		<div class="middle">
+			<div class="left">
+				<p >Web程序设计基础————HTML、CSS、Javascript</p>
+			</div>
+			<div  class="content">
+				<h2>CSS样式表的作用</h2>
+				<p>http://www.edu.cn/div_css</p>
+				<p>希望认真学习CSS样式表，制作精彩的网页！</p>
+			</div>
+			<div class="right">
+				<p>Web程序设计课程实验显示</p>
+			</div>
+		</div>
+		<div class="footer">
+			版权：2019
+		</div>
+	</div>
+</body>
+</template> 
+
+
+<style scoped>
+		*{
+			margin: 0px;
+			padding: 0px;
+		}
+		html,body{
+			width: 100%;
+			height: 100%;
+			background-color: #FFFFCC;	
+		}
+		div.container{
+			width: 80%;
+			height: 100%;
+			background-color: #9bb940c4;
+			margin: 0 auto;	
+		}
+		div.header,div.footer{
+			color: white;
+			background-color: #0566b6;
+			clear: left;
+			text-align:center;
+			height: 80px;
+			line-height: 80px;		
+		}
+		div.middle{
+			background-color: pink;
+			height: 502px;	
+		}
+		div.left,div.content,div.right{
+			float: left;
+			background-color: rgb(57, 179, 0);
+			height: 100%;
+			width: 70%;
+		}
+		div.left,div.right{
+			background-color: #9999FF;
+			width: 15%;
+			
+		}
+	
+	</style>

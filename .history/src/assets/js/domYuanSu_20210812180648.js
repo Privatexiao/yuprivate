@@ -1,0 +1,7 @@
+function domYuanSu(){
+
+}
+
+export{
+    domYuanSu
+}

@@ -1,0 +1,53 @@
+<template>
+<body>
+    
+</body>
+</template> 
+
+
+<style scoped>
+	#box{
+			width: 600px;
+		}
+		#box div{
+			float: left;
+			margin: 10px;
+			background:#669;
+		}
+		.Square{
+			width: 100px;
+			height: 100px;			
+		}
+		.rectangle{
+			width: 200px;
+			height: 100px;			
+			
+		}
+		.trapezoid{
+			border-bottom: 100px solid #669;
+			border-left: 50px solid #FFFFFF;
+			border-right: 50px solid #FFFFFF;
+			width: 100px;
+			height: 0;
+		}
+		.parallelogram{
+			width: 200px;
+			height: 100px;
+			transform: skew(-20deg);
+			margin-left: 20px;
+		}
+		.triangle-up{
+			border-bottom: 100px solid #669;
+			border-left: 50px solid #FFFFFF;
+			border-right: 50px solid #FFFFFF;
+		}
+		.circle-circle{
+			float: left;
+			margin: 10px;
+			border-radius: 100px;
+			width: 100px;
+			height: 100px;
+			border: 20px solid #669;
+			background: #FFFFFF;
+		}
+</style>

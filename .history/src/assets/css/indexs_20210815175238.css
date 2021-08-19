@@ -1,0 +1,26 @@
+/* 左上角的图片和Private */
+.priboss{
+    position: relative;
+    top: -10px;
+}
+/* 中间的主体 */
+.bodys h1{
+    margin-top: 50px;
+    
+}
+.bodys h2{
+    color: rgb(107, 169, 206);
+}
+.bodys .btn{
+    width: 95px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-left: 17px;
+    pad
+    background-color: rgb(70, 177, 111);
+}
+.bodys .btn .start{
+    width:30px;
+}

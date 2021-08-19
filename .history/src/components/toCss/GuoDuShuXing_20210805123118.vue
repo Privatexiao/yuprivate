@@ -1,0 +1,33 @@
+<template>
+<body>
+    <div class="box"></div>
+    <p>点一下hs噢</p>
+</body>
+</template> 
+
+
+<style scoped>
+	.box{
+			width:200px;
+			height: 200px;
+			border:1px solid #000;
+			margin: 100px auto;
+			background: red;
+			
+			transition: width 2s, backgrount-color 1s;
+			transition: width 2s linear;
+			transition: width 2s linear 1s;
+			transition: all 2s;
+			
+			transition-property: all;
+			transition-duration: 2s;
+			transition-timing-function: ease-out;
+			transition-delay: 1s;
+			
+			transition: all 2s ease-in-out 1s;
+		}
+		.box:hover{
+			width: 600px;
+			background-color: blue;
+		}
+</style>
